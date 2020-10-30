@@ -1,0 +1,62 @@
+html{
+    background-color:maroon;
+    animation-name:colorChange;
+    animation-duration:2s;
+
+}
+@keyframes colorChange{
+       from{background-color:white;} 
+       to{
+        background-color:maroon;
+       }
+}
+  
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:10%;
+    background-color:lightslategrey;
+    animation-name:bodyColorChange;
+    animation-duration:2s;
+    
+
+    border:2px solid black;
+    font-size:24px;
+}
+@keyframes bodyColorChange{
+    from{background-color:black;} 
+    to{
+     background-color:lightslategrey;
+    }
+
+}
+
+#mainHeading{
+    position:absolute;
+    top:50px;
+    left:400px;
+    color:yellow;
+    animation:moveIt 9s infinite;
+    animation-delay:2s;
+  
+   
+}
+@keyframes moveIt{
+    from {left: 10%;}
+  to {left: 70%;}
+
+}
+
+#eventHeader{
+    
+    
+    background-color:yellow;
+}
+#submit{
+    height:50px;
+    width:120px;
+    margin-left:399px;
+}
+
+
+

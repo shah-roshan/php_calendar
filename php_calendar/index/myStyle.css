@@ -1,0 +1,31 @@
+/*
+stylesheet for css
+By Roshan Shah, roshanrupeshkumarshah@gmail.com
+*/
+#build{
+    display: inline-block;
+    height:70px;
+    width:250px;
+
+    background-color: red;
+
+}
+#leaveBlank{
+    display: inline-block;
+    height:70px;
+    width:250px;
+
+
+    background-color: green;
+}
+#dateHeading{
+    
+    display: inline-block;
+    
+    height:70px;
+    width:250px;
+
+
+    background-color: red;
+}
+
